@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestProject</name>
+    </assembly>
+    <members>
+        <member name="M:TestProject.Configuration.LoggerConfiguration.AddAppLogger(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            Add logger
+            </summary>
+        </member>
+        <member name="M:TestProject.Controllers.TestProjectController.CheckOnPalindrome(System.String)">
+            <summary>
+            Проверка слова на палиндром
+            </summary>
+            <response code="200">bool isPalindrom</response>
+        </member>
+        <member name="M:TestProject.Controllers.TestProjectController.GetSumModule(System.String)">
+            <summary>
+            Сумма нечетных чисел по модулю
+            </summary>
+            <response code="200">int sum</response>
+        </member>
+        <member name="M:TestProject.Controllers.TestProjectController.GetOrderList(System.String,System.Boolean)">
+            <summary>
+            Сортировка массива
+            </summary>
+             <param name="isDescending">Сортировка по возрастанию или убыванию</param>
+            <response code="200">string[]</response>
+        </member>
+    </members>
+</doc>
